@@ -1,11 +1,9 @@
-
-
 public class MergeSort {
     int array[];
     int tempmArr[];
     int length;
 public static void main(String[] args) {
-        int[] inputArr = { 36,19,13,48,21};
+        int inputArr[] = { 36,19,13,48,21 };
         MergeSort mergeSort = new MergeSort();
         mergeSort.sort(inputArr);
         for(int i:inputArr){
